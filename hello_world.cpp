@@ -1,12 +1,12 @@
-#include <iostream>
-#include <string>
-using namespace std;
+#include <iostream>//Библиотека для ввода\вывода
+#include <string>//Библиотека для работы со строками
+
 
 int main()
 {
-    string name;
-    cout << "Input your name: ";
-    cin >> name;
-    cout << "Hello world from "<<name << endl;
+    std::string name;//Переменная, хранящая имя пользователя
+    std::cout << "Input your name: ";//Печатает комментарий, который говорит, что пользователю необходимо ввести
+    std::cin >> name;//Ввод имени пользователя
+    std::cout << "Hello world from "<<name << std::endl;//Вывод программы
     return 0;
 }
